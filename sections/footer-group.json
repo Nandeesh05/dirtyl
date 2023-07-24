@@ -1,1 +1,55 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"a6f984f1-6b86-4be4-922e-e010b20c1013":{"type":"link_list","settings":{"heading":"Quick links","menu":"footer"}},"07e82385-6b66-4ebf-8598-1ee78ee27a79":{"type":"brand_information","settings":{"show_social":true}}},"block_order":["a6f984f1-6b86-4be4-922e-e010b20c1013","07e82385-6b66-4ebf-8598-1ee78ee27a79"],"settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":36,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "cb357375-3c79-404e-9611-cf5f2fd13003": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<footer class=\"site-footer\">\n  <div class=\"container\">\n    <div class=\"footer-content\">\n      <div class=\"footer-section\">\n        <h4>Contact<\/h4>\n        <p>Email: contact@example.com<\/p>\n        <p>Phone: +1 (123) 456-7890<\/p>\n      <\/div>\n\n      <div class=\"footer-section\">\n        <h4>Links<\/h4>\n        <ul>\n          <li><a href=\"\/\">Home<\/a><\/li>\n          <li><a href=\"\/collections\">Collections<\/a><\/li>\n          <li><a href=\"\/pages\/about\">About Us<\/a><\/li>\n          <li><a href=\"\/pages\/contact\">Contact Us<\/a><\/li>\n        <\/ul>\n      <\/div>\n\n      <div class=\"footer-section\">\n        <h4>Follow Us<\/h4>\n        <ul class=\"social-links\">\n          <li><a href=\"#\" target=\"_blank\" rel=\"noopener\"><i class=\"fab fa-facebook\"><\/i><\/a><\/li>\n          <li><a href=\"#\" target=\"_blank\" rel=\"noopener\"><i class=\"fab fa-twitter\"><\/i><\/a><\/li>\n          <li><a href=\"#\" target=\"_blank\" rel=\"noopener\"><i class=\"fab fa-instagram\"><\/i><\/a><\/li>\n        <\/ul>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/footer>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "a6f984f1-6b86-4be4-922e-e010b20c1013": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "07e82385-6b66-4ebf-8598-1ee78ee27a79": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "a6f984f1-6b86-4be4-922e-e010b20c1013",
+        "07e82385-6b66-4ebf-8598-1ee78ee27a79"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "cb357375-3c79-404e-9611-cf5f2fd13003",
+    "footer"
+  ]
+}
