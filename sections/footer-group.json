@@ -4,8 +4,17 @@
   "sections": {
     "cb357375-3c79-404e-9611-cf5f2fd13003": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".footer {background-color: #f0f0f0; padding: 20px;}",
+        ".footer-content {display: flex; justify-content: space-between; align-items: center;}",
+        ".footer-links ul {list-style: none; padding: 0; margin: 0;}",
+        ".footer-links li {display: inline-block; margin-right: 20px;}",
+        ".footer-links a {color: #333; text-decoration: none;}",
+        ".footer-newsletter h4 {margin-bottom: 10px;}",
+        ".footer-newsletter input[type=\"email\"] {padding: 5px; width: 200px; border: 1px solid #ccc; border-radius: 3px;}"
+      ],
       "settings": {
-        "custom_liquid": "Skip to content\n \nSearch…\nAll gists\nBack to GitHub\n@Nandeesh05 \n@levinmejia\nlevinmejia\/footer.liquid\nCreated 7 years ago • Report abuse\nCode\nRevisions\n1\nForks\n1\n<script src=\"https:\/\/gist.github.com\/levinmejia\/741ffae1590d2f99778623c1581d04f3.js\"><\/script>\nfooter.liquid\n<footer class=\"site-footer small--text-center\" role=\"contentinfo\">\n      <div class=\"wrapper\">\n\n        <h1>We love speaking to our customers. Got a question?<\/h1>\n        <ul>\n          <li><a href=\"http:\/\/www.twitter.com\/shopifypartners\">@shopifypartners<\/a><\/li>\n          <li>1-800-555-1234<\/li>\n          <li><a href=\"mailto:hello@myshopemail.com\">hello@myshopemail.com<\/a><\/li>\n        <\/ul>\n        \n        <div class=\"grid-uniform\">\n\n          \n          \n\n          \n          \n\n          \n          \n          \n\n          \n          \n\n          \n              \n            \n\n          \n          \n          <div class=\"grid__item \">\n            <h3>About Us<\/h3>\n            <p>The Shopify Web Design and Development Blog provides design inspiration, development tips, and business insights for anyone working as a freelancer or agency in the web design space. Our blog gives you the resources and tools you need to push creative boundaries and challenge the status quo when approaching each and every web design project.<\/p>\n\n            <p>Subscribe to our email newsletter for regular updates featuring new articles, free resources, and innovative examples of websites that are doing something right.<\/p>\n          <\/div>\n\n          \n            \n\t\t<\/div>\n        \n        \n          <div class=\"grid__item \">\n            <p>&copy; 2023, <br><\/p>\n            \n              <ul class=\"inline-list payment-icons\">\n                \n              <\/ul>\n            \n          <\/div>\n        \n\n      <\/div>\n    <\/footer>",
+        "custom_liquid": "<footer>\n  <div class=\"footer-content\">\n    <div class=\"footer-links\">\n      <ul>\n        <li><a href=\"\/pages\/about-us\">About Us<\/a><\/li>\n        <li><a href=\"\/pages\/contact-us\">Contact Us<\/a><\/li>\n      <\/ul>\n    <\/div>\n    <div class=\"footer-newsletter\">\n      <h4>Subscribe to Newsletter<\/h4>\n      <form action=\"\/contact\" method=\"post\" id=\"newsletter-form\">\n        <input type=\"email\" name=\"email\" placeholder=\"Enter your email\" required>\n        <button type=\"submit\">Subscribe<\/button>\n      <\/form>\n    <\/div>\n  <\/div>\n<\/footer>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
